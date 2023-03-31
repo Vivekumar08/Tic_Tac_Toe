@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="T_2_3_styles.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="T_2_3_script.js" defer></script>
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+  <nav>
+    <label class="logo">TicTacToe</label>
+    <ul>
+      <li><a class="active" href="index.html" >Home</a></li>
+      <li><a href="game.html" >Games</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Feedback</a></li>
+    </ul>
+    <label id="icon">
+      <i class="fas fa-bars"></i>
+    </label>
+
+  </nav>
+  <div class="board" id="board">
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+  </div>
+  <div class="winning-message" id="winningMessage">
+    <div data-winning-message-text></div>
+    <button id="restartButton">Restart</button>
+  </div>
+</body>
+</html>
